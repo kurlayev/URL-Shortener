@@ -1,0 +1,5 @@
+frontend/public
+db
+node_modules
+.idea
+*.iml

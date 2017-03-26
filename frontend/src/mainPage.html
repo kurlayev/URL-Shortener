@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>URL Shortener</title>
+</head>
+<body>
+<div class="shortener-wrapper">
+  <div id="shortener" class="shortener">
+    <div class="shortener__title">URL Shortener</div>
+    <div class="shortener__error"></div>
+    <div class="shortener__full-url-label">Fill in URL to be shortened:</div>
+    <input class="shortener__full-url" type="url" />
+    <button class="shortener__shorten-btn">Shorten!</button>
+    <div class="shortener__result-container shortener__result-container_hidden">
+      <hr />
+      <div class="shortener__result-label">Shortened URL:</div>
+      <div class="shortener__result" tabindex="0"></div>
+      <div class="shortener__result-buttons">
+        <button class="shortener__clear-btn">Clear</button>
+        <button class="shortener__copy-btn">Copy to clipboard</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

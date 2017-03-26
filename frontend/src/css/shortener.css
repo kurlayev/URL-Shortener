@@ -1,0 +1,84 @@
+.shortener {
+    background-color: #e3f6f1;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: double #bbb;
+}
+
+.shortener__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.shortener__error {
+    display: none;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.shortener_has-error .shortener__error {
+    display: block;
+}
+
+.shortener__full-url-label {
+    text-align: left;
+}
+
+.shortener__full-url {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    font: 14px monospace;
+    box-sizing: border-box;
+}
+
+.shortener__shorten-btn {
+    display: inline-block;
+    width: 100px;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+
+.shortener__result-container_hidden {
+    display: none;
+}
+
+.shortener__result-label {
+    text-align: left;
+}
+
+.shortener__result {
+    margin: 5px 0 15px;
+    overflow-x: auto;
+    border: 1px solid gray;
+    font: 14px monospace;
+    padding: 2px 5px;
+    min-height: 17px;
+    background-color: #ebebeb;
+}
+
+.shortener__result-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.shortener__clear-btn {
+    padding: 5px 15px;
+    color: #9f8e38;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.shortener__copy-btn {
+    padding: 5px 15px;
+    color: #b43ab6;
+    font-weight: bold;
+    font-size: 14px;
+}
